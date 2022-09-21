@@ -21,7 +21,7 @@
 	 * @return { Boolean }
 	 */
 	checkPhone: function(phone) {
-		if (!(/^1(1|2|3|4|5|6|7|8|9)\d{9}$/.test(phone))) {
+		if (!(/^1(?:3\d|4[4-9]|5[0-35-9]|6[67]|7[013-8]|8\d|9\d)\d{8}$/.test(phone))) {
 			return false;
 		}
 		return true;
