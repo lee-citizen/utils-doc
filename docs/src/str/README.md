@@ -1,4 +1,4 @@
-  ## url参数转为对象 
+  ## url参数转对象 
   ``` javascript
 	/**
 	 * @param { String } url
